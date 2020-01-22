@@ -8,7 +8,7 @@ class Werewolf {
   }
 
   change(){
-    if (this.human == true) {
+    if (this.human === true) {
       this.human = false;
       this.wolf = true;
       this.hungry = true;
